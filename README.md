@@ -28,8 +28,8 @@ I'm a passionate full-stack developer focused on building clean, efficient, and 
 
 Brief description of the project and what you accomplished. Highlight the key features and impact.
 
-- 🔗 [Live Demo](https://example.com)
-- 💻 [GitHub Repo](https://github.com/dcrock03/project-one)
+- [Live Demo](https://example.com)
+- [GitHub Repo](https://github.com/dcrock03/project-one)
 
 ---
 
@@ -38,8 +38,8 @@ Brief description of the project and what you accomplished. Highlight the key fe
 
 Brief description of the project and what you accomplished. Highlight the key features and impact.
 
-- 🔗 [Live Demo](https://example.com)
-- 💻 [GitHub Repo](https://github.com/dcrock03/project-two)
+- [Live Demo](https://example.com)
+- [GitHub Repo](https://github.com/dcrock03/project-two)
 
 ---
 
@@ -48,8 +48,8 @@ Brief description of the project and what you accomplished. Highlight the key fe
 
 Brief description of the project and what you accomplished. Highlight the key features and impact.
 
-- 🔗 [Live Demo](https://example.com)
-- 💻 [GitHub Repo](https://github.com/dcrock03/project-three)
+- [Live Demo](https://example.com)
+- [GitHub Repo](https://github.com/dcrock03/project-three)
 
 ---
 
@@ -74,7 +74,5 @@ I'd love to connect! Feel free to reach out through any of these channels:
 <div align="center">
 
 ### Let's build something amazing together!
-
-© 2026 Derek. All rights reserved.
 
 </div>
