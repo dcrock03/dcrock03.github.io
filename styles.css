@@ -152,7 +152,7 @@ body {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(3, 600px);
+    grid-template-columns: repeat(3, 1200px);
     gap: 2rem;
     justify-content: center;
 }
