@@ -156,6 +156,12 @@ body {
     gap: 2rem;
 }
 
+.project-card:nth-child(3) {
+    grid-column: 1 / -1;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
 .project-card {
     background: var(--white);
     border-radius: 8px;
