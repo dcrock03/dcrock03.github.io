@@ -152,9 +152,11 @@ body {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1200px);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     justify-content: center;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
 }
 
 .project-card:nth-child(3) {
