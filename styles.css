@@ -151,10 +151,9 @@ body {
 }
 
 .project-grid {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 2rem;
-    justify-content: center;
 }
 
 .project-card {
@@ -166,9 +165,6 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    flex: 0 1 540px;
-    width: 100%;
-    max-width: 540px;
 }
 
 .project-card:hover {
@@ -227,6 +223,12 @@ body {
     display: flex;
     gap: 1rem;
     margin-top: auto;
+}
+
+@media (max-width: 900px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .project-links a {
