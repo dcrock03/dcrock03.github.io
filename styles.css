@@ -166,12 +166,9 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    flex: 1 1 45%;
-    min-width: 300px;
-}
-
-.project-card:nth-child(3) {
-    grid-column: auto;
+    flex: 0 1 540px;
+    width: 100%;
+    max-width: 540px;
 }
 
 .project-card:hover {
