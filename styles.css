@@ -152,16 +152,19 @@ body {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 2rem;
 }
 
 .project-card {
     background: var(--white);
     border-radius: 8px;
-    padding: 2rem;
+    padding: 0;
     box-shadow: var(--shadow);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card:hover {
@@ -170,16 +173,24 @@ body {
 }
 
 .project-preview {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
     overflow: hidden;
-    border-radius: 8px;
+    border-radius: 0;
     background-color: #000;
+    width: 100%;
 }
 
 .project-preview video {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.project-info {
+    padding: 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-info h3 {
@@ -209,6 +220,7 @@ body {
 .project-links {
     display: flex;
     gap: 1rem;
+    margin-top: auto;
 }
 
 .project-links a {
