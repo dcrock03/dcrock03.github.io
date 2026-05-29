@@ -151,16 +151,10 @@ body {
 }
 
 .project-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
-}
-
-.project-card:nth-child(3) {
-    grid-column: auto;
 }
 
 .project-card {
@@ -172,6 +166,12 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    flex: 1 1 45%;
+    min-width: 300px;
+}
+
+.project-card:nth-child(3) {
+    grid-column: auto;
 }
 
 .project-card:hover {
