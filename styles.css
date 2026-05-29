@@ -167,6 +167,13 @@ body {
     flex-direction: column;
 }
 
+.project-card:last-child {
+    grid-column: 1 / -1;
+    width: 100%;
+    max-width: calc(50% - 1rem);
+    justify-self: center;
+}
+
 .project-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
@@ -228,6 +235,11 @@ body {
 @media (max-width: 900px) {
     .project-grid {
         grid-template-columns: 1fr;
+    }
+
+    .project-card:last-child {
+        grid-column: auto;
+        max-width: none;
     }
 }
 
