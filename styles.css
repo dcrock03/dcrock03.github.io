@@ -157,7 +157,7 @@ body {
 }
 
 .project-card:nth-child(3) {
-    width: 600px;
+    grid-column: auto;
 }
 
 .project-card {
