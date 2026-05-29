@@ -152,14 +152,12 @@ body {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
     gap: 2rem;
 }
 
 .project-card:nth-child(3) {
-    grid-column: 1 / -1;
     width: 600px;
-    margin: 0 auto;
 }
 
 .project-card {
