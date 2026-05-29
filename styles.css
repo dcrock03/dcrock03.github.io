@@ -169,6 +169,19 @@ body {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
 }
 
+.project-preview {
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #000;
+}
+
+.project-preview video {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .project-info h3 {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
